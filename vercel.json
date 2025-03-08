@@ -1,15 +1,8 @@
 {
   "rewrites": [
     {
-      "source": "/fur", 
-      "destination": "/api/pro"
-    }
-  ],
-  "redirects": [
-    {
       "source": "/:path*", 
-      "destination": "/", 
-      "statusCode": 404
+      "destination": "/api/pro", 
     }
   ]
 }
